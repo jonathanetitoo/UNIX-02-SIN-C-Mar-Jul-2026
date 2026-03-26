@@ -54,3 +54,6 @@ gpg --verify doc_no_cifradocompa.txt.asc
 
 # Verify partner binary signed file
 gpg --verify doc_no_cifradocompa.txt.gpg
+
+# Verify partner detached signature
+gpg --verify doc_no_cifradocompa.txt.sig doc_no_cifrado.txt
