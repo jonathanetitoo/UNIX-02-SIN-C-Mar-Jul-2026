@@ -31,5 +31,9 @@ cat doc_encrypted.txt
 # Decrypt the message from my friend
 gpg --decrypt doc_encrypted_by_patin.txt
 
-## Sign file in clear text format
+# Sign file in clear text format
 gpg --clearsign doc_no_cifrado.txt
+
+# Sign file in binary format
+gpg --sign doc_no_cifrado.txt
+
