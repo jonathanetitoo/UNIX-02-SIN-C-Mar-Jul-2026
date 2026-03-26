@@ -63,3 +63,9 @@ gpg --edit-key 59DBC071624FB8E623E65A8A678FEA3F7A530BBB
 
 # Sign partner's public key
 gpg --sign-key 59DBC071624FB8E623E65A8A678FEA3F7A530BBB
+
+# Verify partner's clearsigned file again after trust assignment
+gpg --verify doc_no_cifradocompa.txt.asc
+
+# Verify partner's binary signed file again after trust assignment
+gpg --verify doc_no_cifradocompa.txt.gpg
