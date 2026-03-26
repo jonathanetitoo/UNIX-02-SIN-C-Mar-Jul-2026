@@ -48,3 +48,6 @@ gpg --verify doc_no_cifrado.txt.gpg
 
 # Verify detached signature
 gpg --verify doc_no_cifrado.txt.sig doc_no_cifrado.txt
+
+# Verify partner clear signed file
+gpg --verify doc_no_cifradocompa.txt.asc
