@@ -40,3 +40,6 @@ gpg --sign doc_no_cifrado.txt
 # Create detached signature
 gpg --detach-sign doc_no_cifrado.txt
 
+# Verify clear signed file
+gpg --verify doc_no_cifrado.txt.asc
+
