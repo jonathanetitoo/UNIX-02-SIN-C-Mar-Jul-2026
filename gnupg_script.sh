@@ -43,3 +43,7 @@ gpg --detach-sign doc_no_cifrado.txt
 # Verify clear signed file
 gpg --verify doc_no_cifrado.txt.asc
 
+# Verify binary signed file
+gpg --verify doc_no_cifrado.txt.gpg
+git add gnupg_script.sh
+git commit -m "Add verification for binary signed file"
