@@ -60,3 +60,6 @@ gpg --verify doc_no_cifradocompa.txt.sig doc_no_cifrado.txt
 
 # Edit partner's public key to set trust level
 gpg --edit-key 59DBC071624FB8E623E65A8A678FEA3F7A530BBB
+
+# Sign partner's public key
+gpg --sign-key 59DBC071624FB8E623E65A8A678FEA3F7A530BBB
