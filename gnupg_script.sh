@@ -69,3 +69,6 @@ gpg --verify doc_no_cifradocompa.txt.asc
 
 # Verify partner's binary signed file again after trust assignment
 gpg --verify doc_no_cifradocompa.txt.gpg
+
+# Verify partner clearsigned file after assigning trust
+gpg --verify doc_no_cifradocompa.txt.asc
