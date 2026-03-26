@@ -51,3 +51,6 @@ gpg --verify doc_no_cifrado.txt.sig doc_no_cifrado.txt
 
 # Verify partner clear signed file
 gpg --verify doc_no_cifradocompa.txt.asc
+
+# Verify partner binary signed file
+gpg --verify doc_no_cifradocompa.txt.gpg
