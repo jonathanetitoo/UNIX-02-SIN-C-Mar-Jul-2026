@@ -1,0 +1,50 @@
+#Jorge Aguilar 
+#Refreshes the list of available packages from the repositories
+sudo apt update
+
+#Upgrades all installed packages to their latest available versions
+sudo apt upgrade
+
+#Installs the "parted" utility on Debian-based systems
+sudo apt install parted
+
+#Displays partition details, then disk structure, separating outputs with lines
+sudo parted -l && echo -e "\n--\n" && lsblk -f && echo -e "\n--\n"
+
+#Lists the partition tables of all detected storage devices
+parted -l
+
+#Shows disks and partitions along with their file system information
+lsblk -f
+
+#Runs the next command only if the previous one was successful
+&&
+
+#Prints a line break with separators for better readability
+"\n--\n"
+
+#Checks if the system is using UEFI; otherwise prints BIOS
+[ -d /sys/firmware/efi ] && echo "UEFI" || echo "BIOS"
+
+#Creates a file named test.txt and writes "mi archivo" into it
+echo "mi archivo " > test.txt
+
+#Displays detailed information about the file (size, permissions, timestamps, etc.)
+stat test.txt
+  File: test.txt
+  Size: 12              Blocks: 8          IO Block: 4096   regular file
+Device: 7,4     Inode: 1572970     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)
+Access: 2026-04-02 15:35:49.636920705 +0000
+Modify: 2026-04-02 15:35:40.536920541 +0000
+Change: 2026-04-02 15:35:40.536920541 +0000
+ Birth: 2026-04-02 15:35:40.536920541 +0000
+
+ #Lists all files including hidden ones in long format (extra command for deeper understanding)
+ls -la
+
+#Shows the current working directory (useful for navigation)
+pwd
+
+#Runs a second command only if the first one executes successfully (command chaining example)
+ls && echo "Command executed successfully"
