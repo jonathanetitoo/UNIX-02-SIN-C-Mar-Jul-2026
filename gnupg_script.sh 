@@ -9,3 +9,9 @@ ls -r
 #Prints the results in alphabetical order; adding the -r option will print the results in reverse alphabetical order
 pwd
 #indicates that the user is currently in their home folder
+cd 
+#change directory 
+chown 
+#The chown command allows you to change the owning group.
+cp
+#The cp command is used to copy files.
