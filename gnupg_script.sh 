@@ -15,3 +15,5 @@ chown
 #The chown command allows you to change the owning group.
 cp
 #The cp command is used to copy files.
+dd
+#The dd command is used to copy files or entire partitions at the bit level.
