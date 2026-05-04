@@ -3,3 +3,9 @@ ls
 ls Documents 
 #list documents 
 aptitude moo
+ls -l
+#list the contents of a directory.
+ls -r
+#Prints the results in alphabetical order; adding the -r option will print the results in reverse alphabetical order
+pwd
+#indicates that the user is currently in their home folder
