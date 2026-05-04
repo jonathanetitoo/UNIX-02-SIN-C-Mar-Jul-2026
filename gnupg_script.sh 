@@ -1,0 +1,23 @@
+ls
+#list files 
+ls Documents 
+#list documents 
+aptitude moo
+ls -l
+#list the contents of a directory.
+ls -r
+#Prints the results in alphabetical order; adding the -r option will print the results in reverse alphabetical order
+pwd
+#indicates that the user is currently in their home folder
+cd 
+#change directory 
+chown 
+#The chown command allows you to change the owning group.
+cp
+#The cp command is used to copy files.
+su
+#The `su` command allows you to temporarily act as a different user. It does this by creating a new shell.
+cat 
+#The cat command, which stands for “concatenate”, is often used to quickly view the contents of small files.
+dd
+#The dd command is used to copy files or entire partitions at the bit level.
