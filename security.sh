@@ -38,3 +38,9 @@ id -g
 #Group ID principal 
 id -G
 #show any group
+groupadd -g 2000 operacione
+#create a new group but with a specific id 
+grupoadd desarrolladores 
+#create a new group
+grep "desarrolladores\|operaciones\|servicios-web" /etc/group
+#show the groups 
