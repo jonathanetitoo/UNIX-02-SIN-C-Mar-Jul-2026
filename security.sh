@@ -50,3 +50,7 @@ grep "GID_MIN\|GID_MAX\|SYS-GID" /etc/login.defs
 ddgroup --system cache_web 
 addgroup --gid 2100 marketing  
 grep "diseno\|marketing\|cache_web" /etc/group
+ usermod -aG diseno root 
+ usermod -aG desarrolladores root 
+ #add root into a group 
+ 
