@@ -28,3 +28,7 @@ group
 ls -la 
 touch text.txt 
 los archivos y directorios eredan el uid y gid 
+cat /etc/group 
+#obtengo los grupos 
+groups 
+#ver los grupos de mi usuario actual 
