@@ -46,3 +46,7 @@ grep "desarrolladores\|operaciones\|servicios-web" /etc/group
 #show the groups 
 grep "GID_MIN\|GID_MAX\|SYS-GID" /etc/login.defs
 #set the maximum and minimum numbers of the groups
+#create groups with addgroup
+ddgroup --system cache_web 
+addgroup --gid 2100 marketing  
+grep "diseno\|marketing\|cache_web" /etc/group
