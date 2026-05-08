@@ -32,3 +32,9 @@ cat /etc/group
 #obtengo los grupos 
 groups 
 #ver los grupos de mi usuario actual 
+id -u
+#User ID
+id -g
+#Group ID principal 
+id -G
+#show any group
