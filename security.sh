@@ -59,3 +59,9 @@ grep "desarrolladores\|diseno" /etc/group
  #create a group called marketing 
  id
  #show the groups and ids  
+ usermod -G desarrolladores root
+ #delete groups 
+ usermod -aG diseno,marketing,grupo_temporal root 
+ #recovery groups 
+ ls -la ~/lab_chgrp/proyectos/
+ #list groups 
