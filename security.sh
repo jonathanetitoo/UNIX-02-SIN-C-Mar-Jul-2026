@@ -58,4 +58,4 @@ grep "desarrolladores\|diseno" /etc/group
  adduser root marketing  
  #create a group called marketing 
  id
- #show the groups and ids 
+ #show the groups and ids  
