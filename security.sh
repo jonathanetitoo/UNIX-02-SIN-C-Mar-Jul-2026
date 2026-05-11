@@ -55,3 +55,7 @@ grep "diseno\|marketing\|cache_web" /etc/group
  #add root into a group 
 grep "desarrolladores\|diseno" /etc/group
 #Searches the /etc/group file for entries that contain either desarrolladores or diseno
+ adduser root marketing  
+ #create a group called marketing 
+ id
+ #show the groups and ids 
