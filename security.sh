@@ -53,4 +53,5 @@ grep "diseno\|marketing\|cache_web" /etc/group
  usermod -aG diseno root 
  usermod -aG desarrolladores root 
  #add root into a group 
- 
+grep "desarrolladores\|diseno" /etc/group
+#Searches the /etc/group file for entries that contain either desarrolladores or diseno
