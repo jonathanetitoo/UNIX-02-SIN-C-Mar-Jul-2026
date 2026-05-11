@@ -1,0 +1,67 @@
+cat /etc/passwd 
+#see the users 
+#root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:997:997:systemd Network Management:/:/usr/sbin/nologin
+debian-tor:x:100:101::/var/lib/tor:/bin/false
+tcpdump:x:996:996:tcpdump:/nonexistent:/usr/sbin/nologin
+id
+#show the groups with the nombers 
+group
+#show youre principal group identify 
+ls -la 
+touch text.txt 
+los archivos y directorios eredan el uid y gid 
+cat /etc/group 
+#obtengo los grupos 
+groups 
+#ver los grupos de mi usuario actual 
+id -u
+#User ID
+id -g
+#Group ID principal 
+id -G
+#show any group
+groupadd -g 2000 operacione
+#create a new group but with a specific id 
+grupoadd desarrolladores 
+#create a new group
+grep "desarrolladores\|operaciones\|servicios-web" /etc/group
+#show the groups 
+grep "GID_MIN\|GID_MAX\|SYS-GID" /etc/login.defs
+#set the maximum and minimum numbers of the groups
+#create groups with addgroup
+ddgroup --system cache_web 
+addgroup --gid 2100 marketing  
+grep "diseno\|marketing\|cache_web" /etc/group
+ usermod -aG diseno root 
+ usermod -aG desarrolladores root 
+ #add root into a group 
+grep "desarrolladores\|diseno" /etc/group
+#Searches the /etc/group file for entries that contain either desarrolladores or diseno
+ adduser root marketing  
+ #create a group called marketing 
+ id
+ #show the groups and ids  
+ usermod -G desarrolladores root
+ #delete groups 
+ usermod -aG diseno,marketing,grupo_temporal root 
+ #recovery groups 
+ ls -la ~/lab_chgrp/proyectos/
+ #list groups 
