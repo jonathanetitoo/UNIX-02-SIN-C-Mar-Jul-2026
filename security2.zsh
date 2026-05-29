@@ -5,3 +5,5 @@ id -gn
 touch ~/test_grupo_heredado.txt 
 ls -la ~/test_grupo_heredado.txt 
 #create a file and see the groups 
+groups 
+#see the all available groups 
