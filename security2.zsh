@@ -11,4 +11,5 @@ id -gn
 #see the current group
 touch ~/antes_de_newgrp.txt
 ls -la ~/antes_de_newgrp.txt
-#create a file before newgrp 
+#create a file before newgrp
+apt install 
