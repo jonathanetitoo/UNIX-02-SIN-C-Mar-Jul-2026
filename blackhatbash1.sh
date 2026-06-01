@@ -12,3 +12,8 @@ df -human -readable
  #Give a lot of informotion 
   bash -r blackhatbash1.sh
   #create a restricted bash shell
+  chmod u+x blackhatbash1.sh 
+  #change permissions 
+  ./blackhatbash1.sh 
+  #execute the scrypt 
+  bash -n blackhatbash1.sh 
