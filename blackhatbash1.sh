@@ -20,3 +20,4 @@ df -human -readable
   #execute the scrypt 
   #bash -n blackhatbash1.sh 
   set +x
+  #change to depuration mode 
