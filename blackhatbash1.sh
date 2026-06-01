@@ -7,3 +7,8 @@ echo ${OSTYPE}
 ps -e -f
 ps -ef
 df -human -readable
+#all environment variables must be in uppercase.
+ bash -x blackhatbash1.sh
+ #Give a lot of informotion 
+  bash -r blackhatbash1.s
+  #create a restricted bash shell
