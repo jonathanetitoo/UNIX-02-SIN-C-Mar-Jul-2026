@@ -54,3 +54,5 @@ sudo apt-get install package_name   # Installs a package
 sudo apt-get upgrade   # Updates installed packages
 sudo apt-get remove package_name   # Removes a package
 sudo apt-get purge package_name   # Removes a package completely
+passwd username   # Changes the password for a specific user
+passwd -S username   # Displays password status details for a specific user
