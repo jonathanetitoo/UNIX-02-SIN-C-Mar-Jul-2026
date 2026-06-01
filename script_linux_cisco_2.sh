@@ -45,3 +45,7 @@ ping -c 4 192.168.1.3   # Sends 4 ping packets to test connectivity with the IP 
 ping yahoo.com   # Tests connectivity to yahoo.com and checks if name resolution is working
 Ctrl + C   # Stops a command that keeps running, such as ping
 exit   # Logs out from the current user session, such as the root account
+PID   # Shows the unique process ID
+TTY   # Shows the terminal where the process is running
+TIME   # Shows the total CPU time used by the process
+CMD   # Shows the command that started the process
