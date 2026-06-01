@@ -56,3 +56,20 @@ sudo apt-get remove package_name   # Removes a package
 sudo apt-get purge package_name   # Removes a package completely
 passwd username   # Changes the password for a specific user
 passwd -S username   # Displays password status details for a specific user
+vi newfile.txt   # Opens or creates the file newfile.txt using the vi editor
+Esc   # Returns to command mode from insert mode
+i   # Enters insert mode before the cursor
+a   # Enters insert mode after the cursor
+o   # Opens a new line below the current line and enters insert mode
+dd   # Deletes the current line
+dw   # Deletes the current word
+yy   # Copies the current line into the buffer
+p   # Pastes the copied or deleted text after the cursor
+/search_word   # Searches forward for the specified word or pattern
+n   # Moves to the next search result
+N   # Moves to the previous search result
+:w   # Saves the current file
+:q   # Quits vi if no changes were made
+:q!   # Quits vi without saving changes
+:wq   # Saves the file and quits vi
+ZZ   # Saves the file and quits vi
