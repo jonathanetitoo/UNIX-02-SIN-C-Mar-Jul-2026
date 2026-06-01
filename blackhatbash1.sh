@@ -10,5 +10,5 @@ df -human -readable
 #all environment variables must be in uppercase.
  bash -x blackhatbash1.sh
  #Give a lot of informotion 
-  bash -r blackhatbash1.s
+  bash -r blackhatbash1.sh
   #create a restricted bash shell
