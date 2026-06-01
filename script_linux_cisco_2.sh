@@ -49,3 +49,8 @@ PID   # Shows the unique process ID
 TTY   # Shows the terminal where the process is running
 TIME   # Shows the total CPU time used by the process
 CMD   # Shows the command that started the process
+sudo apt-get update   # Refreshes package information
+sudo apt-get install package_name   # Installs a package
+sudo apt-get upgrade   # Updates installed packages
+sudo apt-get remove package_name   # Removes a package
+sudo apt-get purge package_name   # Removes a package completely
