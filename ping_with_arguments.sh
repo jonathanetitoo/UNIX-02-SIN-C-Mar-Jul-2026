@@ -7,3 +7,7 @@ echo "Pinging the target: ${TARGET}..."
 
 echo "the arguments are: $@"
 echo "The total number of arguments is: $#"
+# Change "$@" to "$*" to observe behavior.
+ for args in "$@"; 
+ do echo "${args}" 
+ done
