@@ -1,7 +1,7 @@
 #!/bin/bash
 # Runs the script using the Bash shell.
 
-FILE="output.txt"
+FILE="du"
 # Creates a variable called FILE and stores the file name output.txt.
 
 touch "${FILE}"
