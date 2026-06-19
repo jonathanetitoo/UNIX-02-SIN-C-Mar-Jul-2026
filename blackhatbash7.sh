@@ -14,7 +14,7 @@ touch example_file1 example_file2 example_file3
    printf "hola1,chao1\nhola2,chao2\nhola3,chao3\n" > test.scv
    $ awk 'NR < 10' log.txt
     grep "42.236.10.117" log.txt
-    # grep busca en log.txt las líneas que contienen la IP 42.236.10.117   awk '{print $7}'
-# awk muestra solo la columna 7 de esas líneas
+# awk prints only the 7th column from those lines
+# grep searches log.txt for lines containing the IP address 42.236.10.117
 grep "42.236.10.117" log.txt | awk '{print $7
-#juntos filtran las líneas por esa IP y luego imprimen únicamente el dato de la columna 7
+# together: they filter the log by that IP and then display only the value in column 7
