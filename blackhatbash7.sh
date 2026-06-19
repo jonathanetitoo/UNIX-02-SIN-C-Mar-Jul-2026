@@ -18,3 +18,4 @@ touch example_file1 example_file2 example_file3
 # grep searches log.txt for lines containing the IP address 42.236.10.117
 grep "42.236.10.117" log.txt | awk '{print $7
 # together: they filter the log by that IP and then display only the value in column 7
+ sed 's/Mozilla/Godzilla/g' log.txt
