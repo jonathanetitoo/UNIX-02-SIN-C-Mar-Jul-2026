@@ -11,3 +11,4 @@ touch example_file1 example_file2 example_file3
    $ awk '{print $3}' log.txt
    awk '{print $1,$2,$3}' log.txt
    awk '{print $1,$NF}' log.txt
+   printf "hola1,chao1\nhola2,chao2\nhola3,chao3\n" > test.scv
